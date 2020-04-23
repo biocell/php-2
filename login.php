@@ -5,8 +5,10 @@ if(isset($_SESSION['loggedIn']) && !empty($SESSION['loggedIn'])){
     header("Location: dashboard.php");
 }
 ?>
-<h3>Login Here</h3>
-  <p>
+
+<h2>Login Here</h2>
+<div id="login"> 
+<p>
         <?php
             if (isset($_SESSION['message']) && !empty($_SESSION['message'])){
                 echo "<span style='color:green'>" . $_SESSION['message'] . "</span>";
