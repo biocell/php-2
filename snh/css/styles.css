@@ -1,0 +1,134 @@
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header:after {
+    content: "";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.header {
+    background: #4863a0;
+    border-bottom: 3px solid #2b3856;
+}
+
+.header #home {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.header #home a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 95px;
+    padding: 10px 0 0;
+    margin: 0 0 0 50px;
+    width: 100px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.header .nav {
+    float: right;
+    top: 10;
+    right: 0;
+    margin: 0;
+    position: relative;
+    left: 15px;
+    z-index: 99999999;
+}
+
+.header .nav li {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.header .nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 95px;
+    padding: 10px 0 0 0;
+    margin: 0 0 0 100px;
+    width: 100px;
+    text-align: left;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header .nav li.on a {
+    text-decoration: underline;
+}
+
+.header .nav li a:hover,
+.header .nav li a:active {
+    opacity: 0.7;
+}
+
+.header .nav li.register a {
+    background-position: 4px -5px;
+}
+
+.header .nav li.login a {
+    background-position: 13px -105px;
+}
+
+.header .nav li.logout a {
+    background-position: 13px -105px;
+}
+
+.header .nav li.password a {
+    background-position: 35px -340px;
+}
+
+.content {
+    background: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-weight: lighter;
+}
+
+.wrapper p {
+    font-size: 1.5em;
+}
+
+#login {
+    background-color: aliceblue;
+    border-color: #4863a0;
+    border-style: solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#login form {
+    padding-left: 60px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+#register {
+    background-color: aliceblue;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#dashboard {
+    margin: 0 auto;
+}
+
+#dashboard p {
+    margin: 0 auto;
+}
